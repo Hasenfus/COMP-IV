@@ -1,0 +1,70 @@
+\contentsline {section}{\numberline {1}PS0: Hello World with SFML}{3}{section.1}%
+\contentsline {subsection}{\numberline {1.1}Discussion:}{3}{subsection.1.1}%
+\contentsline {subsection}{\numberline {1.2}Key algorithms, Data structures and OO Designs used in this Assignment:}{3}{subsection.1.2}%
+\contentsline {subsection}{\numberline {1.3}Images used:}{3}{subsection.1.3}%
+\contentsline {subsection}{\numberline {1.4}What I learned :}{3}{subsection.1.4}%
+\contentsline {subsection}{\numberline {1.5}Acknowledgements:}{3}{subsection.1.5}%
+\contentsline {subsection}{\numberline {1.6}Codebase}{3}{subsection.1.6}%
+\contentsline {subsection}{\numberline {1.7}Output:}{4}{subsection.1.7}%
+\contentsline {section}{\numberline {2}PS1a: Linear Feedback Shift Register}{6}{section.2}%
+\contentsline {subsection}{\numberline {2.1}Discussion:}{6}{subsection.2.1}%
+\contentsline {subsection}{\numberline {2.2}Key algorithms, Data structures and OO Designs used in this Assignment:}{6}{subsection.2.2}%
+\contentsline {subsection}{\numberline {2.3}What I learned :}{6}{subsection.2.3}%
+\contentsline {subsection}{\numberline {2.4}Codebase}{6}{subsection.2.4}%
+\contentsline {subsection}{\numberline {2.5}Output:}{9}{subsection.2.5}%
+\contentsline {section}{\numberline {3}PS1b: Application of LFSR with SFML library}{10}{section.3}%
+\contentsline {subsection}{\numberline {3.1}Discussion:}{10}{subsection.3.1}%
+\contentsline {subsection}{\numberline {3.2}Key algorithms, Data structures and OO Designs used in this Assignment:}{10}{subsection.3.2}%
+\contentsline {subsection}{\numberline {3.3}Images used:}{10}{subsection.3.3}%
+\contentsline {subsection}{\numberline {3.4}What I learned :}{10}{subsection.3.4}%
+\contentsline {subsection}{\numberline {3.5}Acknowledgements :}{10}{subsection.3.5}%
+\contentsline {subsection}{\numberline {3.6}Codebase}{11}{subsection.3.6}%
+\contentsline {subsection}{\numberline {3.7}Output:}{14}{subsection.3.7}%
+\contentsline {section}{\numberline {4}PS2a: Sokaban Visual component}{16}{section.4}%
+\contentsline {subsection}{\numberline {4.1}Discussion:}{16}{subsection.4.1}%
+\contentsline {subsection}{\numberline {4.2}Key algorithms, Data structures and OO Designs used in this Assignment:}{16}{subsection.4.2}%
+\contentsline {subsection}{\numberline {4.3}What I learned :}{16}{subsection.4.3}%
+\contentsline {subsection}{\numberline {4.4}Acknowledgments :}{16}{subsection.4.4}%
+\contentsline {subsection}{\numberline {4.5}Codebase}{16}{subsection.4.5}%
+\contentsline {subsection}{\numberline {4.6}Output:}{23}{subsection.4.6}%
+\contentsline {section}{\numberline {5}PS2b: Sokoban Game Mechanics}{24}{section.5}%
+\contentsline {subsection}{\numberline {5.1}Discussion:}{24}{subsection.5.1}%
+\contentsline {subsection}{\numberline {5.2}Key algorithms, Data structures and OO Designs used in this Assignment:}{24}{subsection.5.2}%
+\contentsline {subsection}{\numberline {5.3}What I learned :}{24}{subsection.5.3}%
+\contentsline {subsection}{\numberline {5.4}Codebase}{25}{subsection.5.4}%
+\contentsline {subsection}{\numberline {5.5}Output:}{33}{subsection.5.5}%
+\contentsline {section}{\numberline {6}PS3: Pythagoras Tree}{34}{section.6}%
+\contentsline {subsection}{\numberline {6.1}Discussion:}{34}{subsection.6.1}%
+\contentsline {subsection}{\numberline {6.2}Key algorithms, Data structures and OO Designs used in this Assignment:}{34}{subsection.6.2}%
+\contentsline {subsection}{\numberline {6.3}What I learned :}{34}{subsection.6.3}%
+\contentsline {subsection}{\numberline {6.4}Codebase}{34}{subsection.6.4}%
+\contentsline {subsection}{\numberline {6.5}Output:}{38}{subsection.6.5}%
+\contentsline {section}{\numberline {7}PS4a: Checkers Visual mechanics}{39}{section.7}%
+\contentsline {subsection}{\numberline {7.1}Discussion:}{39}{subsection.7.1}%
+\contentsline {subsection}{\numberline {7.2}Key algorithms, Data structures and OO Designs used in this Assignment:}{39}{subsection.7.2}%
+\contentsline {subsection}{\numberline {7.3}What I learned :}{39}{subsection.7.3}%
+\contentsline {subsection}{\numberline {7.4}Codebase}{39}{subsection.7.4}%
+\contentsline {subsection}{\numberline {7.5}Output :}{46}{subsection.7.5}%
+\contentsline {section}{\numberline {8}PS4b: Checkers Game mechanics}{48}{section.8}%
+\contentsline {subsection}{\numberline {8.1}Discussion:}{48}{subsection.8.1}%
+\contentsline {subsection}{\numberline {8.2}Key algorithms, Data structures and OO Designs used in this Assignment:}{48}{subsection.8.2}%
+\contentsline {subsection}{\numberline {8.3}What I learned :}{48}{subsection.8.3}%
+\contentsline {subsection}{\numberline {8.4}Codebase}{48}{subsection.8.4}%
+\contentsline {subsection}{\numberline {8.5}Output :}{59}{subsection.8.5}%
+\contentsline {section}{\numberline {9}PS5: DNA Sequence Alignment}{61}{section.9}%
+\contentsline {subsection}{\numberline {9.1}Discussion:}{61}{subsection.9.1}%
+\contentsline {subsection}{\numberline {9.2}Key algorithms, Data structures and OO Designs used in this Assignment:}{61}{subsection.9.2}%
+\contentsline {subsection}{\numberline {9.3}What I learned :}{61}{subsection.9.3}%
+\contentsline {subsection}{\numberline {9.4}Codebase}{61}{subsection.9.4}%
+\contentsline {subsection}{\numberline {9.5}Output:}{65}{subsection.9.5}%
+\contentsline {section}{\numberline {10}PS6: Random Writer}{66}{section.10}%
+\contentsline {subsection}{\numberline {10.1}Discussion:}{66}{subsection.10.1}%
+\contentsline {subsection}{\numberline {10.2}Key algorithms, Data structures and OO Designs used in this Assignment:}{66}{subsection.10.2}%
+\contentsline {subsection}{\numberline {10.3}What I learned :}{66}{subsection.10.3}%
+\contentsline {subsection}{\numberline {10.4}Codebase}{67}{subsection.10.4}%
+\contentsline {section}{\numberline {11}PS7: Kronos Log Parsing}{73}{section.11}%
+\contentsline {subsection}{\numberline {11.1}Discussion:}{73}{subsection.11.1}%
+\contentsline {subsection}{\numberline {11.2}Key algorithms, Data structures and OO Designs used in this Assignment:}{73}{subsection.11.2}%
+\contentsline {subsection}{\numberline {11.3}Explanation of the code:}{73}{subsection.11.3}%
+\contentsline {subsection}{\numberline {11.4}What I learned :}{73}{subsection.11.4}%
+\contentsline {subsection}{\numberline {11.5}Codebase}{73}{subsection.11.5}%

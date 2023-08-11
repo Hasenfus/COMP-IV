@@ -1,0 +1,44 @@
+\section{PS5: DNA Sequence Alignment}\label{sec:ps5}
+\graphicspath{{ps5}}
+\subsection{Discussion:}\label{sec:ps6:disc}
+The main objective in this assignment was to construct a systematic way of identifying differences in strings and calculating the string that minimizes distance between the two strings. For the runtime and space complexity scale pretty drastically depending on the implementation of this program. It is very important to consider many different methods and how each influences the program. 
+
+\subsection{Key algorithms, Data structures and OO Designs used in this Assignment:}
+The dynamic programming approach is used to calculate the edit distance between two strings. 
+The choice of this approach is based on its efficiency and relative ease of implementation. 
+The method stores intermediate results in a two-dimensional vector, thus avoiding redundant computations
+This approach is more efficient than the recursive method without memoization, which can have exponential time complexity. 
+Although recursive with memoization and Hirschberg's algorithm can also be efficient, dynamic programming is often simpler to 
+implement and understand. The main disadvantage of dynamic programming is that it can consume more memory than other methods, 
+particularly when working with very long strings.
+
+
+
+\subsection{What I learned :}
+I learned how to calculate the exponential growth and thus the runtime of the program. I did so by both utilizing the time command in C and also using valgrind to identify the amount of heap space allocated during runtime. 
+\subsection{Codebase}\label{sec:ps6:code}
+
+\textbf{\colorbox{pink}{Makefile :}} \newline \textbf{This Makefile contains the lint.}
+\lstinputlisting[language=Make]{ps5/Makefile}
+
+\textbf{\colorbox{pink}{main.cpp :}} 
+\lstinputlisting{ps5/main.cpp}
+
+\textbf{\colorbox{pink}{EDistance.h :}}
+\lstinputlisting{ps5/EDistance.h}
+\newpage
+
+\textbf{\colorbox{pink}{EDistance.cpp :}} 
+\lstinputlisting{ps5/EDistance.cpp}
+
+
+
+\subsection{Output:}
+\begin{figure}[h]
+   \centering
+    \includegraphics[width=0.69\textwidth]{projectPictures/ps5.png}
+    \caption{PS5 Output Window}
+    \label{fig:ps5}
+\end{figure}
+
+\newpage

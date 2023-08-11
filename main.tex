@@ -1,0 +1,83 @@
+\documentclass[12pt]{article}
+
+%
+% FILL OUT THIS SECTION
+% 
+\author{Hunter M Hasenfus}
+\date{Spring 2023}
+\newcommand{\secno}{204}
+
+% Packages
+\usepackage[T1]{fontenc} % Some font fixes
+\usepackage{amsmath, amssymb, amsthm} % Allows extra math commands
+\usepackage{listings} % Allows importing code
+\usepackage{subcaption} % Helps with figures
+\usepackage{graphicx} % Allows including images
+\usepackage[dvipsnames,table]{xcolor} % Helps with manipulating colors
+\usepackage{hyperref} % Link to web pages
+\usepackage[legalpaper, margin=1in]{geometry} % Adjusts page margins
+\usepackage{color,soul}
+\usepackage{xcolor}
+\usepackage{movie15}
+% Settings for portfolio
+\title{Computing IV Sec \secno: Project Portfolio}
+\newcounter{mycounter}
+\setcounter{mycounter}{1}
+
+% Formatting style for code
+\definecolor{columbiablue}{rgb}{0.61, 0.87, 1.0}
+\lstdefinestyle{cppcode}{
+	language=c++,
+	%basicstyle=\footnotesize\ttfamily,
+	basicstyle=\ttfamily,
+	commentstyle=\color{Green},
+	tabsize=4,
+	columns=flexible,
+	keepspaces=true,
+	numbers=left,
+	keywordstyle=\color{Red},
+	stringstyle=\color{Maroon},
+	showstringspaces=false,
+	backgroundcolor=\color{columbiablue},
+	frame=single,
+	breaklines=true
+}
+\lstset{style=cppcode}
+% Get images from figures directory
+
+\begin{document}
+\maketitle
+
+\tableofcontents
+
+
+\vfill
+\textbf{\colorbox{lime}{TIME TO COMPLETE PORTFOLIO : 12 Hours}}
+
+\newpage
+
+% ADD INCLUDES FOR PROJECTS HERE
+\include{ps0} 
+\newpage
+\include{ps1a}
+\newpage
+\include{ps1b}
+\newpage
+\include{ps2a}
+\newpage
+\include{ps2b}
+\newpage
+\include{ps3}
+\newpage
+\include{ps4a}
+\newpage
+\include{ps4b}
+\newpage
+\include{ps5}
+\newpage
+\include{ps6}
+\newpage
+\include{ps7}
+
+
+\end{document}

@@ -1,0 +1,58 @@
+\section{PS1a: Linear Feedback Shift Register}\label{sec:ps1a}
+\graphicspath{{ps1a}}
+\subsection{Discussion:}\label{sec:ps1a:disc}
+       The assignment focused on constructing a class based around the LFSR, providing opaque object design through a header file, and using the boost framework to link the design to a series of tests that verified the correct implementation of the code. The ps1a assignment is an implementation of \textbf{LFSR(Linear Feedback shift Register) which is the Fibonacci LFSR}. This assignment is used for the ps1b i.e PhotoMagic. In this project, there are two main functions i.e, step() and generate(), The step() funtion is used for left shifting the one bit of the given seed, along the lsb is the result of the tap positions. These tap positions use the XOR operations and later it gives the result.
+    The generate() generates the states according to the given k inputs.\newline
+    \textbf{XOR Truth Table:}
+    \begin{center}
+ \begin{tabular}{||c c c ||} 
+ \hline
+ A & B & Output \\ [0.5ex] 
+ \hline\hline
+ 0 & 0 & 0 \\ 
+ \hline
+ 0 & 1 & 1 \\
+ \hline
+ 1 & 0 & 1 \\
+ \hline
+ 1 & 1 & 0 \\ [1ex] 
+ \hline
+\end{tabular}
+\end{center}
+
+
+\subsection{Key algorithms, Data structures and OO Designs used in this Assignment:}\label{sec:ps1a:kdo}
+        I accomplished all parts of the assignment, utilizing a simple vector of ints for the register bits, which allowed me to easily configure the spots and access all elements with random access memory. 
+        \textbf{\colorbox{lime}{\textbf{The Tap position algorithm is as follows:}}}
+ \begin{lstlisting}
+ int _TAPbitvalue = funXOR(rgs[0], rgs[2]);
+_TAPbitvalue = funXOR(_TAPbitvalue, funGetBit(rgs[3]));
+_TAPbitvalue = funXOR(_TAPbitvalue, funGetBit(rgs[5]));
+ \end{lstlisting}
+
+\subsection{What I learned :}\label{sec:ps1a:learn}
+
+I learned how to implement again the boost library tests. 
+
+
+\subsection{Codebase}\label{sec:ps1a:code}
+
+\colorbox{pink}{\textbf{Makefile:}} \newline \textbf{This Makefile is created by the referrence of the Version2 Makefile from the notes.}
+
+\lstinputlisting[language=Make]{ps1a/Makefile}
+
+\colorbox{pink}{\textbf{FibLFSR.h:}} \newline 
+\lstinputlisting{ps1a/FibLFSR.h}
+
+\colorbox{pink}{\textbf{FibLFSR.cpp:}}\lstinputlisting{ps1a/FibLFSR.cpp}
+\colorbox{pink}{\textbf{test.cpp:}}
+\lstinputlisting{ps1a/test.cpp}
+
+\subsection{Output:}\label{sec:ps1b:output}
+\begin{figure}[h]
+    \centering
+    \includegraphics[width=1\textwidth]{projectPictures/ps1a.png}
+
+    \label{fig:output}
+\end{figure}
+

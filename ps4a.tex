@@ -1,0 +1,38 @@
+\section{PS4a: Checkers Visual mechanics}\label{sec:ps4a}
+\graphicspath{{ps4a}}
+\subsection{Discussion:}\label{sec:ps4a:disc}
+The assignment is tasked with creating a game using the SFML library that mimics the game of checkers. The game of checkers
+is inherently designed in the form of an array, which makes the functionality of it very easy to design and implement. By using indices as locations the area of clicking as well the entire drawing process can be circumvented into a simple fashion. 
+
+\subsection{Key algorithms, Data structures and OO Designs used in this Assignment:}
+The key data structures that I implemented was a map of pairs. This allowed me to have all the pieces designated to a given user in a single data structure, and made it very easy to decipher what locations were valid 
+when a given user was up. It also allowed me to figure out where a piece was then easily decipher its type. 
+
+I did not use smart pointers. I created an array of the game board, and then 2 map containers for the pieces relative to each user. For selecting the piece based on the button pressed and mouse location, I made a variable that was a member of that class.
+This allowed a dynamic nature to the 'selected variable'. 
+\subsection{What I learned :}
+I learned how to decipher spatial locations within the SFML window. This was an interesting process and one that I can completely understand can take up a great deal of time for game creators. 
+\subsection{Codebase}\label{sec:ps4a:code}
+
+\textbf{\colorbox{pink}{Makefile:}} \newline \textbf{This Makefile has linting included.}
+
+\lstinputlisting[language=Make]{ps4a/Makefile}
+
+\textbf{\colorbox{pink}{main.cpp:}} 
+\lstinputlisting{ps4a/main.cpp}
+
+\textbf{\colorbox{pink}{Checkers.h:}} 
+\lstinputlisting{ps4a/Checkers.h}
+
+\textbf{\colorbox{pink}{Checkers.cpp: }} 
+\lstinputlisting{ps4a/Checkers.cpp}
+
+\subsection{Output :}
+\begin{figure}[h]
+   \centering
+    \includegraphics[width=1\textwidth]{projectPictures/ps4a.png}
+    \caption{PS4a Output in Terminal}
+    \label{fig:ps4a}
+\end{figure}
+
+

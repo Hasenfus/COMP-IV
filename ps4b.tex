@@ -1,0 +1,40 @@
+\section{PS4b: Checkers Game mechanics}\label{sec:ps4b}
+\graphicspath{{ps4b}}
+\subsection{Discussion:}\label{sec:ps4b:disc}
+The assignent is the task of applying functionality to the UI that was developed in the previous assignment. This 
+assignment is where the movement of the players is conditioned as well as the crowning of pawns and the decision of victory. 
+\subsection{Key algorithms, Data structures and OO Designs used in this Assignment:}
+The key algorithms I used were maps, this allowed myself the ability to track various pieces based on certain mappings. 
+It made it very easy and transferable to coordinate functions based on the mappings of different different groups. The object oriented nature allowed myself 
+to store various data structures that made it indispensable when coordinating all the functions together. 
+
+\subsection{What I learned :}
+I created a few features and actually made and remade aspects as I went on. I noticed smoother and more versatile 
+methods by which I could implement the game and noticed that traveling onward with legacy structures would have 
+brought along handicaps that could have made the development much harder. The key points of this were abstracting away the nextMove functionality.
+This allowed myself the capacity to check if any peice had any next moves which aided in the implementation of both multijumps as well as endgame scenarios.
+\subsection{Codebase}\label{sec:ps4b:code}
+
+\textbf{\colorbox{pink}{Makefile:}} \newline \textbf{This Makefile has linting included.}
+\lstinputlisting[language=Make]{ps4b/Makefile}
+
+\textbf{\colorbox{pink}{main.cpp:}} 
+\lstinputlisting{ps4b/main.cpp}
+
+\textbf{\colorbox{pink}{Checkers.h:}} 
+\lstinputlisting{ps4b/Checkers.h}
+
+\newpage
+\textbf{\colorbox{pink}{Checkers.cpp: }} 
+\lstinputlisting{ps4b/Checkers.cpp}
+
+\subsection{Output :}
+\begin{figure}[h]
+   \centering
+    \includegraphics[width=1\textwidth]{projectPictures/ps4b.png}
+    \caption{PS4b Output in Terminal}
+    \label{fig:ps4b}
+\end{figure}
+
+
+\newpage

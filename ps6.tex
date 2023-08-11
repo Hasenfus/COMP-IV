@@ -1,0 +1,66 @@
+\section{PS6: Random Writer}\label{sec:ps6}
+\graphicspath{{ps6}}
+\subsection{Discussion:}\label{sec:ps6:disc}
+The assignment delves into the topic of markov models and markov chains. A markov probability is one where the cumulative sum is 1.0, this is done by using frequency probabilities. 
+In the assignment the frequencies of kgrams are found and then the frequencies of the subsequent letters are found. This enables the ability to create probability distributions for each kgram and
+then randomly generate streams of characters based off the training data sets acquired probabilities. 
+
+\subsection{Key algorithms, Data structures and OO Designs used in this Assignment:}
+In this implementation I constructed such markov model using three seperate data types. The first was a simple mapping from strings to ints, this was used for the frequencies of the kgrams. 
+I then made a seperate data structure of a mapping into a vector, this allowed me to create a vector for each kgram and denote probabiltites for the following characters based on the frequency in which they were 
+found in the training data. I chose to implement this with a vector because the last data structure I implemented was a mapping from strings into discrete distributions. By nature, the discrete distribution requires an input that is returns unlabeled integers. 
+By using the sparse 127 element vector I was able to very seemlessly return the integer equivalent of the asci letters and conver to characters then and there. 
+
+The mapping to discrete distributions is pretty interesting in that, it seemlessly takes the vector of character probabilites and converts it into a probaility distribution 
+based on the discrete distribution. This allows the ability to pass a random generator into the probablity distribution and pass out a value. Provides a great deal of simplification for the latter half of the program. 
+line 63-67 RandWriter.cpp
+
+ \begin{lstlisting}
+for (auto it: kgramCharProb) {
+        std::discrete_distribution<int> dist(it.second.begin(), it.second.end());
+        kgramCharDist[it.first] = dist;
+    }
+ \end{lstlisting}
+
+\subsection{What I learned :}
+
+I have learnt about the Markov model and how it works. Also learnt about the Hash Map. I used exceptions on all the points listed in the pdf. Mainly invalid argument exceptions that made sure the length of the kgrams were accurate. 
+line 78-81 RandWriter.cpp
+ \begin{lstlisting}
+if (kgram.length() != order) {
+        throw std::invalid_argument("kgram is not the same length as order"
+         + kgram);
+    }
+ \end{lstlisting}
+This was an exception to catch invalid kgrams by length == order. 
+line 126-130 RandWriter.cpp
+ \begin{lstlisting}
+if (n == 0) {
+        throw std::invalid_argument("kgram does not exist: " + kgram
+         + ", " + static_cast<char>(c));
+    }
+ \end{lstlisting}
+This was an exception to catch kgrams that were not apart of the original text. 
+
+
+
+\subsection{Codebase}\label{sec:ps6:code}
+
+\textbf{\colorbox{pink}{Makefile :}} \newline \textbf{This Makefile contains the lint.}
+\lstinputlisting[language=Make]{ps6/Makefile}
+
+\textbf{\colorbox{pink}{TextWriter.cpp :}} \lstinputlisting{ps6/TextWriter.cpp}
+
+\textbf{\colorbox{pink}{RandWriter.h :}} 
+\lstinputlisting{ps6/RandWriter.h}
+\newpage
+
+\textbf{\colorbox{pink}{RandWriter.cpp :}} 
+\lstinputlisting{ps6/RandWriter.cpp}
+
+\textbf{\colorbox{pink}{test.cpp :}} 
+\lstinputlisting{ps6/test.cpp}
+
+
+
+\newpage

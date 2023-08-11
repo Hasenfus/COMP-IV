@@ -1,0 +1,40 @@
+/**********************************************************************
+ *  Linear Feedback Shift Register (part B) ps1b-readme.txt template
+ **********************************************************************/
+
+Name: Hunter Hasenfus
+
+Hours to complete assignment: 1hr
+/**********************************************************************
+ *  Briefly discuss the assignment itself and what you accomplished.
+ **********************************************************************/
+
+The assignment is focused on using the LFSR created in part a to act an encoding mechanism alongside the sfml framework. 
+To encode and decode an image.
+
+
+
+/**********************************************************************
+ *  If you did any implementation for extra credit, describe it
+ *  here and why it is interesting.
+ **********************************************************************/
+
+N/A
+
+
+/**********************************************************************
+ *  List whatever help (if any) you received from the instructor,
+ *  classmates, or anyone else.
+ **********************************************************************/
+ No help
+
+/**********************************************************************
+ *  Describe any serious problems you encountered.                    
+ **********************************************************************/
+I spent some time wondering why the decoded image was slightly different, and it was due to the jpg format as mentioned in the instructions.
+
+/**********************************************************************
+ *  List any other comments here.                                     
+ **********************************************************************/
+
+ N/A

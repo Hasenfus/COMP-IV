@@ -1,0 +1,899 @@
+desc: (none)
+cmd: ./EDistance ./sequence/gene57.txt
+time_unit: i
+#-----------
+snapshot=0
+#-----------
+time=0
+mem_heap_B=0
+mem_heap_extra_B=0
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=1
+#-----------
+time=7436817
+mem_heap_B=4
+mem_heap_extra_B=20
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=2
+#-----------
+time=7439251
+mem_heap_B=18924
+mem_heap_extra_B=132
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=3
+#-----------
+time=7479279
+mem_heap_B=19004
+mem_heap_extra_B=140
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=4
+#-----------
+time=7520478
+mem_heap_B=20028
+mem_heap_extra_B=148
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=5
+#-----------
+time=7523389
+mem_heap_B=20431
+mem_heap_extra_B=529
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=6
+#-----------
+time=7527926
+mem_heap_B=93587
+mem_heap_extra_B=869
+mem_stacks_B=0
+heap_tree=detailed
+n5: 93587 (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
+ n1: 72704 0x4990CE9: pool (eh_alloc.cc:123)
+  n1: 72704 0x4990CE9: __static_initialization_and_destruction_0 (eh_alloc.cc:262)
+   n1: 72704 0x4990CE9: _GLOBAL__sub_I_eh_alloc.cc (eh_alloc.cc:338)
+    n1: 72704 0x4004CDD: call_init (dl-init.c:70)
+     n1: 72704 0x4004CDD: call_init (dl-init.c:26)
+      n1: 72704 0x4004DCB: _dl_init (dl-init.c:117)
+       n1: 72704 0x401B8DF: ??? (in /usr/lib64/ld-linux-x86-64.so.2)
+        n1: 72704 0x1: ???
+         n1: 72704 0x1FFF000152: ???
+          n0: 72704 0x1FFF00015E: ???
+ n2: 16576 0x53CD128: g_malloc (gmem.c:130)
+  n1: 16384 0x53CD563: g_quark_init (gquark.c:64)
+   n1: 16384 0x538DF58: UnknownInlinedFun (glib-init.c:341)
+    n1: 16384 0x538DF58: UnknownInlinedFun (glib-init.c:330)
+     n1: 16384 0x538DF58: glib_init_ctor (glib-init.c:455)
+      n1: 16384 0x4004CDD: call_init (dl-init.c:70)
+       n1: 16384 0x4004CDD: call_init (dl-init.c:26)
+        n1: 16384 0x4004DCB: _dl_init (dl-init.c:117)
+         n1: 16384 0x401B8DF: ??? (in /usr/lib64/ld-linux-x86-64.so.2)
+          n1: 16384 0x1: ???
+           n1: 16384 0x1FFF000152: ???
+            n0: 16384 0x1FFF00015E: ???
+  n0: 192 in 1 place, below massif's threshold (1.00%)
+ n2: 2096 0x53CD5B0: g_malloc0 (gmem.c:163)
+  n1: 2032 0x53E4C5B: UnknownInlinedFun (gthread.c:544)
+   n1: 2032 0x53E4C5B: UnknownInlinedFun (gslice.c:566)
+    n1: 2032 0x53E4C5B: UnknownInlinedFun (gslice.c:552)
+     n1: 2032 0x53E4C5B: g_slice_alloc (gslice.c:1052)
+      n1: 2032 0x53B32D1: g_hash_table_new_full (ghash.c:1073)
+       n1: 2032 0x53CD552: g_quark_init (gquark.c:63)
+        n1: 2032 0x538DF58: UnknownInlinedFun (glib-init.c:341)
+         n1: 2032 0x538DF58: UnknownInlinedFun (glib-init.c:330)
+          n1: 2032 0x538DF58: glib_init_ctor (glib-init.c:455)
+           n1: 2032 0x4004CDD: call_init (dl-init.c:70)
+            n1: 2032 0x4004CDD: call_init (dl-init.c:26)
+             n1: 2032 0x4004DCB: _dl_init (dl-init.c:117)
+              n1: 2032 0x401B8DF: ??? (in /usr/lib64/ld-linux-x86-64.so.2)
+               n1: 2032 0x1: ???
+                n1: 2032 0x1FFF000152: ???
+                 n0: 2032 0x1FFF00015E: ???
+  n0: 64 in 1 place, below massif's threshold (1.00%)
+ n0: 1187 in 7 places, all below massif's threshold (1.00%)
+ n1: 1024 0x50E88B8: __glvndWinsysDispatchAllocIndex (winsys_dispatch.c:87)
+  n1: 1024 0x50D5DF3: UnknownInlinedFun (libglxmapping.c:1033)
+   n1: 1024 0x50D5DF3: __glXInit (libglx.c:2098)
+    n1: 1024 0x4004CDD: call_init (dl-init.c:70)
+     n1: 1024 0x4004CDD: call_init (dl-init.c:26)
+      n1: 1024 0x4004DCB: _dl_init (dl-init.c:117)
+       n1: 1024 0x401B8DF: ??? (in /usr/lib64/ld-linux-x86-64.so.2)
+        n1: 1024 0x1: ???
+         n1: 1024 0x1FFF000152: ???
+          n0: 1024 0x1FFF00015E: ???
+#-----------
+snapshot=7
+#-----------
+time=7576047
+mem_heap_B=93627
+mem_heap_extra_B=885
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=8
+#-----------
+time=7578817
+mem_heap_B=93755
+mem_heap_extra_B=925
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=9
+#-----------
+time=7583247
+mem_heap_B=95167
+mem_heap_extra_B=1137
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=10
+#-----------
+time=7594212
+mem_heap_B=95189
+mem_heap_extra_B=1155
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=11
+#-----------
+time=7605899
+mem_heap_B=95661
+mem_heap_extra_B=1171
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=12
+#-----------
+time=7611539
+mem_heap_B=103912
+mem_heap_extra_B=1192
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=13
+#-----------
+time=7615101
+mem_heap_B=95423
+mem_heap_extra_B=1209
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=14
+#-----------
+time=7620627
+mem_heap_B=97535
+mem_heap_extra_B=1273
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=15
+#-----------
+time=7623507
+mem_heap_B=98463
+mem_heap_extra_B=1337
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=16
+#-----------
+time=7627105
+mem_heap_B=99623
+mem_heap_extra_B=1417
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=17
+#-----------
+time=7632865
+mem_heap_B=101479
+mem_heap_extra_B=1545
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=18
+#-----------
+time=7637903
+mem_heap_B=103103
+mem_heap_extra_B=1673
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=19
+#-----------
+time=7643663
+mem_heap_B=104959
+mem_heap_extra_B=1801
+mem_stacks_B=0
+heap_tree=detailed
+n6: 104959 (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
+ n1: 72704 0x4990CE9: pool (eh_alloc.cc:123)
+  n1: 72704 0x4990CE9: __static_initialization_and_destruction_0 (eh_alloc.cc:262)
+   n1: 72704 0x4990CE9: _GLOBAL__sub_I_eh_alloc.cc (eh_alloc.cc:338)
+    n1: 72704 0x4004CDD: call_init (dl-init.c:70)
+     n1: 72704 0x4004CDD: call_init (dl-init.c:26)
+      n1: 72704 0x4004DCB: _dl_init (dl-init.c:117)
+       n1: 72704 0x401B8DF: ??? (in /usr/lib64/ld-linux-x86-64.so.2)
+        n1: 72704 0x1: ???
+         n1: 72704 0x1FFF000152: ???
+          n0: 72704 0x1FFF00015E: ???
+ n2: 16576 0x53CD128: g_malloc (gmem.c:130)
+  n1: 16384 0x53CD563: g_quark_init (gquark.c:64)
+   n1: 16384 0x538DF58: UnknownInlinedFun (glib-init.c:341)
+    n1: 16384 0x538DF58: UnknownInlinedFun (glib-init.c:330)
+     n1: 16384 0x538DF58: glib_init_ctor (glib-init.c:455)
+      n1: 16384 0x4004CDD: call_init (dl-init.c:70)
+       n1: 16384 0x4004CDD: call_init (dl-init.c:26)
+        n1: 16384 0x4004DCB: _dl_init (dl-init.c:117)
+         n1: 16384 0x401B8DF: ??? (in /usr/lib64/ld-linux-x86-64.so.2)
+          n1: 16384 0x1: ???
+           n1: 16384 0x1FFF000152: ???
+            n0: 16384 0x1FFF00015E: ???
+  n0: 192 in 1 place, below massif's threshold (1.00%)
+ n1: 8120 0x404971: std::__new_allocator<int>::allocate(unsigned long, void const*) (in /home/hunting/Desktop/Academics/UML/23Spring/CompIV/PS5/EDistance)
+  n1: 8120 0x40482D: std::allocator_traits<std::allocator<int> >::allocate(std::allocator<int>&, unsigned long) (in /home/hunting/Desktop/Academics/UML/23Spring/CompIV/PS5/EDistance)
+   n1: 8120 0x4046FD: std::_Vector_base<int, std::allocator<int> >::_M_allocate(unsigned long) (in /home/hunting/Desktop/Academics/UML/23Spring/CompIV/PS5/EDistance)
+    n1: 8120 0x4044C8: std::_Vector_base<int, std::allocator<int> >::_M_create_storage(unsigned long) (in /home/hunting/Desktop/Academics/UML/23Spring/CompIV/PS5/EDistance)
+     n2: 8120 0x404290: std::_Vector_base<int, std::allocator<int> >::_Vector_base(unsigned long, std::allocator<int> const&) (in /home/hunting/Desktop/Academics/UML/23Spring/CompIV/PS5/EDistance)
+      n1: 7888 0x404C69: std::vector<int, std::allocator<int> >::vector(std::vector<int, std::allocator<int> > const&) (in /home/hunting/Desktop/Academics/UML/23Spring/CompIV/PS5/EDistance)
+       n1: 7888 0x404BA8: void std::_Construct<std::vector<int, std::allocator<int> >, std::vector<int, std::allocator<int> > const&>(std::vector<int, std::allocator<int> >*, std::vector<int, std::allocator<int> > const&) (in /home/hunting/Desktop/Academics/UML/23Spring/CompIV/PS5/EDistance)
+        n1: 7888 0x404AA8: std::vector<int, std::allocator<int> >* std::__do_uninit_fill_n<std::vector<int, std::allocator<int> >*, unsigned long, std::vector<int, std::allocator<int> > >(std::vector<int, std::allocator<int> >*, unsigned long, std::vector<int, std::allocator<int> > const&) (in /home/hunting/Desktop/Academics/UML/23Spring/CompIV/PS5/EDistance)
+         n1: 7888 0x4048FC: std::vector<int, std::allocator<int> >* std::__uninitialized_fill_n<false>::__uninit_fill_n<std::vector<int, std::allocator<int> >*, unsigned long, std::vector<int, std::allocator<int> > >(std::vector<int, std::allocator<int> >*, unsigned long, std::vector<int, std::allocator<int> > const&) (in /home/hunting/Desktop/Academics/UML/23Spring/CompIV/PS5/EDistance)
+          n1: 7888 0x4047E9: std::vector<int, std::allocator<int> >* std::uninitialized_fill_n<std::vector<int, std::allocator<int> >*, unsigned long, std::vector<int, std::allocator<int> > >(std::vector<int, std::allocator<int> >*, unsigned long, std::vector<int, std::allocator<int> > const&) (in /home/hunting/Desktop/Academics/UML/23Spring/CompIV/PS5/EDistance)
+           n1: 7888 0x40464E: std::vector<int, std::allocator<int> >* std::__uninitialized_fill_n_a<std::vector<int, std::allocator<int> >*, unsigned long, std::vector<int, std::allocator<int> >, std::vector<int, std::allocator<int> > >(std::vector<int, std::allocator<int> >*, unsigned long, std::vector<int, std::allocator<int> > const&, std::allocator<std::vector<int, std::allocator<int> > >&) (in /home/hunting/Desktop/Academics/UML/23Spring/CompIV/PS5/EDistance)
+            n1: 7888 0x4043F1: std::vector<std::vector<int, std::allocator<int> >, std::allocator<std::vector<int, std::allocator<int> > > >::_M_fill_initialize(unsigned long, std::vector<int, std::allocator<int> > const&) (in /home/hunting/Desktop/Academics/UML/23Spring/CompIV/PS5/EDistance)
+             n1: 7888 0x403F9F: std::vector<std::vector<int, std::allocator<int> >, std::allocator<std::vector<int, std::allocator<int> > > >::vector(unsigned long, std::vector<int, std::allocator<int> > const&, std::allocator<std::vector<int, std::allocator<int> > > const&) (in /home/hunting/Desktop/Academics/UML/23Spring/CompIV/PS5/EDistance)
+              n1: 7888 0x403015: EDistance::EDistance(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&) (in /home/hunting/Desktop/Academics/UML/23Spring/CompIV/PS5/EDistance)
+               n0: 7888 0x40263C: main (in /home/hunting/Desktop/Academics/UML/23Spring/CompIV/PS5/EDistance)
+      n0: 232 in 1 place, below massif's threshold (1.00%)
+ n0: 4047 in 17 places, all below massif's threshold (1.00%)
+ n2: 2096 0x53CD5B0: g_malloc0 (gmem.c:163)
+  n1: 2032 0x53E4C5B: UnknownInlinedFun (gthread.c:544)
+   n1: 2032 0x53E4C5B: UnknownInlinedFun (gslice.c:566)
+    n1: 2032 0x53E4C5B: UnknownInlinedFun (gslice.c:552)
+     n1: 2032 0x53E4C5B: g_slice_alloc (gslice.c:1052)
+      n1: 2032 0x53B32D1: g_hash_table_new_full (ghash.c:1073)
+       n1: 2032 0x53CD552: g_quark_init (gquark.c:63)
+        n1: 2032 0x538DF58: UnknownInlinedFun (glib-init.c:341)
+         n1: 2032 0x538DF58: UnknownInlinedFun (glib-init.c:330)
+          n1: 2032 0x538DF58: glib_init_ctor (glib-init.c:455)
+           n1: 2032 0x4004CDD: call_init (dl-init.c:70)
+            n1: 2032 0x4004CDD: call_init (dl-init.c:26)
+             n1: 2032 0x4004DCB: _dl_init (dl-init.c:117)
+              n1: 2032 0x401B8DF: ??? (in /usr/lib64/ld-linux-x86-64.so.2)
+               n1: 2032 0x1: ???
+                n1: 2032 0x1FFF000152: ???
+                 n0: 2032 0x1FFF00015E: ???
+  n0: 64 in 1 place, below massif's threshold (1.00%)
+ n1: 1416 0x404A68: std::__new_allocator<std::vector<int, std::allocator<int> > >::allocate(unsigned long, void const*) (in /home/hunting/Desktop/Academics/UML/23Spring/CompIV/PS5/EDistance)
+  n1: 1416 0x4048CF: std::allocator_traits<std::allocator<std::vector<int, std::allocator<int> > > >::allocate(std::allocator<std::vector<int, std::allocator<int> > >&, unsigned long) (in /home/hunting/Desktop/Academics/UML/23Spring/CompIV/PS5/EDistance)
+   n1: 1416 0x4047B1: std::_Vector_base<std::vector<int, std::allocator<int> >, std::allocator<std::vector<int, std::allocator<int> > > >::_M_allocate(unsigned long) (in /home/hunting/Desktop/Academics/UML/23Spring/CompIV/PS5/EDistance)
+    n1: 1416 0x4045E2: std::_Vector_base<std::vector<int, std::allocator<int> >, std::allocator<std::vector<int, std::allocator<int> > > >::_M_create_storage(unsigned long) (in /home/hunting/Desktop/Academics/UML/23Spring/CompIV/PS5/EDistance)
+     n1: 1416 0x404394: std::_Vector_base<std::vector<int, std::allocator<int> >, std::allocator<std::vector<int, std::allocator<int> > > >::_Vector_base(unsigned long, std::allocator<std::vector<int, std::allocator<int> > > const&) (in /home/hunting/Desktop/Academics/UML/23Spring/CompIV/PS5/EDistance)
+      n1: 1416 0x403F88: std::vector<std::vector<int, std::allocator<int> >, std::allocator<std::vector<int, std::allocator<int> > > >::vector(unsigned long, std::vector<int, std::allocator<int> > const&, std::allocator<std::vector<int, std::allocator<int> > > const&) (in /home/hunting/Desktop/Academics/UML/23Spring/CompIV/PS5/EDistance)
+       n1: 1416 0x403015: EDistance::EDistance(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&) (in /home/hunting/Desktop/Academics/UML/23Spring/CompIV/PS5/EDistance)
+        n0: 1416 0x40263C: main (in /home/hunting/Desktop/Academics/UML/23Spring/CompIV/PS5/EDistance)
+#-----------
+snapshot=20
+#-----------
+time=7649423
+mem_heap_B=106815
+mem_heap_extra_B=1929
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=21
+#-----------
+time=7652303
+mem_heap_B=107743
+mem_heap_extra_B=1993
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=22
+#-----------
+time=7655183
+mem_heap_B=108671
+mem_heap_extra_B=2057
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=23
+#-----------
+time=7659501
+mem_heap_B=110063
+mem_heap_extra_B=2153
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=24
+#-----------
+time=7663058
+mem_heap_B=110759
+mem_heap_extra_B=2201
+mem_stacks_B=0
+heap_tree=detailed
+n6: 110759 (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
+ n1: 72704 0x4990CE9: pool (eh_alloc.cc:123)
+  n1: 72704 0x4990CE9: __static_initialization_and_destruction_0 (eh_alloc.cc:262)
+   n1: 72704 0x4990CE9: _GLOBAL__sub_I_eh_alloc.cc (eh_alloc.cc:338)
+    n1: 72704 0x4004CDD: call_init (dl-init.c:70)
+     n1: 72704 0x4004CDD: call_init (dl-init.c:26)
+      n1: 72704 0x4004DCB: _dl_init (dl-init.c:117)
+       n1: 72704 0x401B8DF: ??? (in /usr/lib64/ld-linux-x86-64.so.2)
+        n1: 72704 0x1: ???
+         n1: 72704 0x1FFF000152: ???
+          n0: 72704 0x1FFF00015E: ???
+ n2: 16576 0x53CD128: g_malloc (gmem.c:130)
+  n1: 16384 0x53CD563: g_quark_init (gquark.c:64)
+   n1: 16384 0x538DF58: UnknownInlinedFun (glib-init.c:341)
+    n1: 16384 0x538DF58: UnknownInlinedFun (glib-init.c:330)
+     n1: 16384 0x538DF58: glib_init_ctor (glib-init.c:455)
+      n1: 16384 0x4004CDD: call_init (dl-init.c:70)
+       n1: 16384 0x4004CDD: call_init (dl-init.c:26)
+        n1: 16384 0x4004DCB: _dl_init (dl-init.c:117)
+         n1: 16384 0x401B8DF: ??? (in /usr/lib64/ld-linux-x86-64.so.2)
+          n1: 16384 0x1: ???
+           n1: 16384 0x1FFF000152: ???
+            n0: 16384 0x1FFF00015E: ???
+  n0: 192 in 1 place, below massif's threshold (1.00%)
+ n1: 13920 0x404971: std::__new_allocator<int>::allocate(unsigned long, void const*) (in /home/hunting/Desktop/Academics/UML/23Spring/CompIV/PS5/EDistance)
+  n1: 13920 0x40482D: std::allocator_traits<std::allocator<int> >::allocate(std::allocator<int>&, unsigned long) (in /home/hunting/Desktop/Academics/UML/23Spring/CompIV/PS5/EDistance)
+   n1: 13920 0x4046FD: std::_Vector_base<int, std::allocator<int> >::_M_allocate(unsigned long) (in /home/hunting/Desktop/Academics/UML/23Spring/CompIV/PS5/EDistance)
+    n1: 13920 0x4044C8: std::_Vector_base<int, std::allocator<int> >::_M_create_storage(unsigned long) (in /home/hunting/Desktop/Academics/UML/23Spring/CompIV/PS5/EDistance)
+     n2: 13920 0x404290: std::_Vector_base<int, std::allocator<int> >::_Vector_base(unsigned long, std::allocator<int> const&) (in /home/hunting/Desktop/Academics/UML/23Spring/CompIV/PS5/EDistance)
+      n1: 13688 0x404C69: std::vector<int, std::allocator<int> >::vector(std::vector<int, std::allocator<int> > const&) (in /home/hunting/Desktop/Academics/UML/23Spring/CompIV/PS5/EDistance)
+       n1: 13688 0x404BA8: void std::_Construct<std::vector<int, std::allocator<int> >, std::vector<int, std::allocator<int> > const&>(std::vector<int, std::allocator<int> >*, std::vector<int, std::allocator<int> > const&) (in /home/hunting/Desktop/Academics/UML/23Spring/CompIV/PS5/EDistance)
+        n1: 13688 0x404AA8: std::vector<int, std::allocator<int> >* std::__do_uninit_fill_n<std::vector<int, std::allocator<int> >*, unsigned long, std::vector<int, std::allocator<int> > >(std::vector<int, std::allocator<int> >*, unsigned long, std::vector<int, std::allocator<int> > const&) (in /home/hunting/Desktop/Academics/UML/23Spring/CompIV/PS5/EDistance)
+         n1: 13688 0x4048FC: std::vector<int, std::allocator<int> >* std::__uninitialized_fill_n<false>::__uninit_fill_n<std::vector<int, std::allocator<int> >*, unsigned long, std::vector<int, std::allocator<int> > >(std::vector<int, std::allocator<int> >*, unsigned long, std::vector<int, std::allocator<int> > const&) (in /home/hunting/Desktop/Academics/UML/23Spring/CompIV/PS5/EDistance)
+          n1: 13688 0x4047E9: std::vector<int, std::allocator<int> >* std::uninitialized_fill_n<std::vector<int, std::allocator<int> >*, unsigned long, std::vector<int, std::allocator<int> > >(std::vector<int, std::allocator<int> >*, unsigned long, std::vector<int, std::allocator<int> > const&) (in /home/hunting/Desktop/Academics/UML/23Spring/CompIV/PS5/EDistance)
+           n1: 13688 0x40464E: std::vector<int, std::allocator<int> >* std::__uninitialized_fill_n_a<std::vector<int, std::allocator<int> >*, unsigned long, std::vector<int, std::allocator<int> >, std::vector<int, std::allocator<int> > >(std::vector<int, std::allocator<int> >*, unsigned long, std::vector<int, std::allocator<int> > const&, std::allocator<std::vector<int, std::allocator<int> > >&) (in /home/hunting/Desktop/Academics/UML/23Spring/CompIV/PS5/EDistance)
+            n1: 13688 0x4043F1: std::vector<std::vector<int, std::allocator<int> >, std::allocator<std::vector<int, std::allocator<int> > > >::_M_fill_initialize(unsigned long, std::vector<int, std::allocator<int> > const&) (in /home/hunting/Desktop/Academics/UML/23Spring/CompIV/PS5/EDistance)
+             n1: 13688 0x403F9F: std::vector<std::vector<int, std::allocator<int> >, std::allocator<std::vector<int, std::allocator<int> > > >::vector(unsigned long, std::vector<int, std::allocator<int> > const&, std::allocator<std::vector<int, std::allocator<int> > > const&) (in /home/hunting/Desktop/Academics/UML/23Spring/CompIV/PS5/EDistance)
+              n1: 13688 0x403015: EDistance::EDistance(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&) (in /home/hunting/Desktop/Academics/UML/23Spring/CompIV/PS5/EDistance)
+               n0: 13688 0x40263C: main (in /home/hunting/Desktop/Academics/UML/23Spring/CompIV/PS5/EDistance)
+      n0: 232 in 1 place, below massif's threshold (1.00%)
+ n0: 4047 in 17 places, all below massif's threshold (1.00%)
+ n2: 2096 0x53CD5B0: g_malloc0 (gmem.c:163)
+  n1: 2032 0x53E4C5B: UnknownInlinedFun (gthread.c:544)
+   n1: 2032 0x53E4C5B: UnknownInlinedFun (gslice.c:566)
+    n1: 2032 0x53E4C5B: UnknownInlinedFun (gslice.c:552)
+     n1: 2032 0x53E4C5B: g_slice_alloc (gslice.c:1052)
+      n1: 2032 0x53B32D1: g_hash_table_new_full (ghash.c:1073)
+       n1: 2032 0x53CD552: g_quark_init (gquark.c:63)
+        n1: 2032 0x538DF58: UnknownInlinedFun (glib-init.c:341)
+         n1: 2032 0x538DF58: UnknownInlinedFun (glib-init.c:330)
+          n1: 2032 0x538DF58: glib_init_ctor (glib-init.c:455)
+           n1: 2032 0x4004CDD: call_init (dl-init.c:70)
+            n1: 2032 0x4004CDD: call_init (dl-init.c:26)
+             n1: 2032 0x4004DCB: _dl_init (dl-init.c:117)
+              n1: 2032 0x401B8DF: ??? (in /usr/lib64/ld-linux-x86-64.so.2)
+               n1: 2032 0x1: ???
+                n1: 2032 0x1FFF000152: ???
+                 n0: 2032 0x1FFF00015E: ???
+  n0: 64 in 1 place, below massif's threshold (1.00%)
+ n1: 1416 0x404A68: std::__new_allocator<std::vector<int, std::allocator<int> > >::allocate(unsigned long, void const*) (in /home/hunting/Desktop/Academics/UML/23Spring/CompIV/PS5/EDistance)
+  n1: 1416 0x4048CF: std::allocator_traits<std::allocator<std::vector<int, std::allocator<int> > > >::allocate(std::allocator<std::vector<int, std::allocator<int> > >&, unsigned long) (in /home/hunting/Desktop/Academics/UML/23Spring/CompIV/PS5/EDistance)
+   n1: 1416 0x4047B1: std::_Vector_base<std::vector<int, std::allocator<int> >, std::allocator<std::vector<int, std::allocator<int> > > >::_M_allocate(unsigned long) (in /home/hunting/Desktop/Academics/UML/23Spring/CompIV/PS5/EDistance)
+    n1: 1416 0x4045E2: std::_Vector_base<std::vector<int, std::allocator<int> >, std::allocator<std::vector<int, std::allocator<int> > > >::_M_create_storage(unsigned long) (in /home/hunting/Desktop/Academics/UML/23Spring/CompIV/PS5/EDistance)
+     n1: 1416 0x404394: std::_Vector_base<std::vector<int, std::allocator<int> >, std::allocator<std::vector<int, std::allocator<int> > > >::_Vector_base(unsigned long, std::allocator<std::vector<int, std::allocator<int> > > const&) (in /home/hunting/Desktop/Academics/UML/23Spring/CompIV/PS5/EDistance)
+      n1: 1416 0x403F88: std::vector<std::vector<int, std::allocator<int> >, std::allocator<std::vector<int, std::allocator<int> > > >::vector(unsigned long, std::vector<int, std::allocator<int> > const&, std::allocator<std::vector<int, std::allocator<int> > > const&) (in /home/hunting/Desktop/Academics/UML/23Spring/CompIV/PS5/EDistance)
+       n1: 1416 0x403015: EDistance::EDistance(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&) (in /home/hunting/Desktop/Academics/UML/23Spring/CompIV/PS5/EDistance)
+        n0: 1416 0x40263C: main (in /home/hunting/Desktop/Academics/UML/23Spring/CompIV/PS5/EDistance)
+#-----------
+snapshot=25
+#-----------
+time=8579760
+mem_heap_B=110558
+mem_heap_extra_B=2194
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=26
+#-----------
+time=8583256
+mem_heap_B=110589
+mem_heap_extra_B=2203
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=27
+#-----------
+time=8586780
+mem_heap_B=110607
+mem_heap_extra_B=2217
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=28
+#-----------
+time=8590320
+mem_heap_B=110631
+mem_heap_extra_B=2225
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=29
+#-----------
+time=8593860
+mem_heap_B=110655
+mem_heap_extra_B=2217
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=30
+#-----------
+time=8597408
+mem_heap_B=110679
+mem_heap_extra_B=2209
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=31
+#-----------
+time=8600964
+mem_heap_B=110703
+mem_heap_extra_B=2217
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=32
+#-----------
+time=8604520
+mem_heap_B=110727
+mem_heap_extra_B=2225
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=33
+#-----------
+time=8608076
+mem_heap_B=110751
+mem_heap_extra_B=2217
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=34
+#-----------
+time=8611632
+mem_heap_B=110775
+mem_heap_extra_B=2209
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=35
+#-----------
+time=8615188
+mem_heap_B=110799
+mem_heap_extra_B=2217
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=36
+#-----------
+time=8618790
+mem_heap_B=110823
+mem_heap_extra_B=2225
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=37
+#-----------
+time=8622416
+mem_heap_B=110847
+mem_heap_extra_B=2217
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=38
+#-----------
+time=8626042
+mem_heap_B=110871
+mem_heap_extra_B=2209
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=39
+#-----------
+time=8629668
+mem_heap_B=110895
+mem_heap_extra_B=2217
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=40
+#-----------
+time=8633294
+mem_heap_B=110919
+mem_heap_extra_B=2225
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=41
+#-----------
+time=8636920
+mem_heap_B=110943
+mem_heap_extra_B=2217
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=42
+#-----------
+time=8640570
+mem_heap_B=110967
+mem_heap_extra_B=2225
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=43
+#-----------
+time=8645488
+mem_heap_B=111003
+mem_heap_extra_B=2221
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=44
+#-----------
+time=8649138
+mem_heap_B=111027
+mem_heap_extra_B=2213
+mem_stacks_B=0
+heap_tree=detailed
+n6: 111027 (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
+ n1: 72704 0x4990CE9: pool (eh_alloc.cc:123)
+  n1: 72704 0x4990CE9: __static_initialization_and_destruction_0 (eh_alloc.cc:262)
+   n1: 72704 0x4990CE9: _GLOBAL__sub_I_eh_alloc.cc (eh_alloc.cc:338)
+    n1: 72704 0x4004CDD: call_init (dl-init.c:70)
+     n1: 72704 0x4004CDD: call_init (dl-init.c:26)
+      n1: 72704 0x4004DCB: _dl_init (dl-init.c:117)
+       n1: 72704 0x401B8DF: ??? (in /usr/lib64/ld-linux-x86-64.so.2)
+        n1: 72704 0x1: ???
+         n1: 72704 0x1FFF000152: ???
+          n0: 72704 0x1FFF00015E: ???
+ n2: 16576 0x53CD128: g_malloc (gmem.c:130)
+  n1: 16384 0x53CD563: g_quark_init (gquark.c:64)
+   n1: 16384 0x538DF58: UnknownInlinedFun (glib-init.c:341)
+    n1: 16384 0x538DF58: UnknownInlinedFun (glib-init.c:330)
+     n1: 16384 0x538DF58: glib_init_ctor (glib-init.c:455)
+      n1: 16384 0x4004CDD: call_init (dl-init.c:70)
+       n1: 16384 0x4004CDD: call_init (dl-init.c:26)
+        n1: 16384 0x4004DCB: _dl_init (dl-init.c:117)
+         n1: 16384 0x401B8DF: ??? (in /usr/lib64/ld-linux-x86-64.so.2)
+          n1: 16384 0x1: ???
+           n1: 16384 0x1FFF000152: ???
+            n0: 16384 0x1FFF00015E: ???
+  n0: 192 in 1 place, below massif's threshold (1.00%)
+ n1: 13688 0x404971: std::__new_allocator<int>::allocate(unsigned long, void const*) (in /home/hunting/Desktop/Academics/UML/23Spring/CompIV/PS5/EDistance)
+  n1: 13688 0x40482D: std::allocator_traits<std::allocator<int> >::allocate(std::allocator<int>&, unsigned long) (in /home/hunting/Desktop/Academics/UML/23Spring/CompIV/PS5/EDistance)
+   n1: 13688 0x4046FD: std::_Vector_base<int, std::allocator<int> >::_M_allocate(unsigned long) (in /home/hunting/Desktop/Academics/UML/23Spring/CompIV/PS5/EDistance)
+    n1: 13688 0x4044C8: std::_Vector_base<int, std::allocator<int> >::_M_create_storage(unsigned long) (in /home/hunting/Desktop/Academics/UML/23Spring/CompIV/PS5/EDistance)
+     n2: 13688 0x404290: std::_Vector_base<int, std::allocator<int> >::_Vector_base(unsigned long, std::allocator<int> const&) (in /home/hunting/Desktop/Academics/UML/23Spring/CompIV/PS5/EDistance)
+      n1: 13688 0x404C69: std::vector<int, std::allocator<int> >::vector(std::vector<int, std::allocator<int> > const&) (in /home/hunting/Desktop/Academics/UML/23Spring/CompIV/PS5/EDistance)
+       n1: 13688 0x404BA8: void std::_Construct<std::vector<int, std::allocator<int> >, std::vector<int, std::allocator<int> > const&>(std::vector<int, std::allocator<int> >*, std::vector<int, std::allocator<int> > const&) (in /home/hunting/Desktop/Academics/UML/23Spring/CompIV/PS5/EDistance)
+        n1: 13688 0x404AA8: std::vector<int, std::allocator<int> >* std::__do_uninit_fill_n<std::vector<int, std::allocator<int> >*, unsigned long, std::vector<int, std::allocator<int> > >(std::vector<int, std::allocator<int> >*, unsigned long, std::vector<int, std::allocator<int> > const&) (in /home/hunting/Desktop/Academics/UML/23Spring/CompIV/PS5/EDistance)
+         n1: 13688 0x4048FC: std::vector<int, std::allocator<int> >* std::__uninitialized_fill_n<false>::__uninit_fill_n<std::vector<int, std::allocator<int> >*, unsigned long, std::vector<int, std::allocator<int> > >(std::vector<int, std::allocator<int> >*, unsigned long, std::vector<int, std::allocator<int> > const&) (in /home/hunting/Desktop/Academics/UML/23Spring/CompIV/PS5/EDistance)
+          n1: 13688 0x4047E9: std::vector<int, std::allocator<int> >* std::uninitialized_fill_n<std::vector<int, std::allocator<int> >*, unsigned long, std::vector<int, std::allocator<int> > >(std::vector<int, std::allocator<int> >*, unsigned long, std::vector<int, std::allocator<int> > const&) (in /home/hunting/Desktop/Academics/UML/23Spring/CompIV/PS5/EDistance)
+           n1: 13688 0x40464E: std::vector<int, std::allocator<int> >* std::__uninitialized_fill_n_a<std::vector<int, std::allocator<int> >*, unsigned long, std::vector<int, std::allocator<int> >, std::vector<int, std::allocator<int> > >(std::vector<int, std::allocator<int> >*, unsigned long, std::vector<int, std::allocator<int> > const&, std::allocator<std::vector<int, std::allocator<int> > >&) (in /home/hunting/Desktop/Academics/UML/23Spring/CompIV/PS5/EDistance)
+            n1: 13688 0x4043F1: std::vector<std::vector<int, std::allocator<int> >, std::allocator<std::vector<int, std::allocator<int> > > >::_M_fill_initialize(unsigned long, std::vector<int, std::allocator<int> > const&) (in /home/hunting/Desktop/Academics/UML/23Spring/CompIV/PS5/EDistance)
+             n1: 13688 0x403F9F: std::vector<std::vector<int, std::allocator<int> >, std::allocator<std::vector<int, std::allocator<int> > > >::vector(unsigned long, std::vector<int, std::allocator<int> > const&, std::allocator<std::vector<int, std::allocator<int> > > const&) (in /home/hunting/Desktop/Academics/UML/23Spring/CompIV/PS5/EDistance)
+              n1: 13688 0x403015: EDistance::EDistance(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&) (in /home/hunting/Desktop/Academics/UML/23Spring/CompIV/PS5/EDistance)
+               n0: 13688 0x40263C: main (in /home/hunting/Desktop/Academics/UML/23Spring/CompIV/PS5/EDistance)
+      n0: 0 in 1 place, below massif's threshold (1.00%)
+ n0: 4547 in 17 places, all below massif's threshold (1.00%)
+ n2: 2096 0x53CD5B0: g_malloc0 (gmem.c:163)
+  n1: 2032 0x53E4C5B: UnknownInlinedFun (gthread.c:544)
+   n1: 2032 0x53E4C5B: UnknownInlinedFun (gslice.c:566)
+    n1: 2032 0x53E4C5B: UnknownInlinedFun (gslice.c:552)
+     n1: 2032 0x53E4C5B: g_slice_alloc (gslice.c:1052)
+      n1: 2032 0x53B32D1: g_hash_table_new_full (ghash.c:1073)
+       n1: 2032 0x53CD552: g_quark_init (gquark.c:63)
+        n1: 2032 0x538DF58: UnknownInlinedFun (glib-init.c:341)
+         n1: 2032 0x538DF58: UnknownInlinedFun (glib-init.c:330)
+          n1: 2032 0x538DF58: glib_init_ctor (glib-init.c:455)
+           n1: 2032 0x4004CDD: call_init (dl-init.c:70)
+            n1: 2032 0x4004CDD: call_init (dl-init.c:26)
+             n1: 2032 0x4004DCB: _dl_init (dl-init.c:117)
+              n1: 2032 0x401B8DF: ??? (in /usr/lib64/ld-linux-x86-64.so.2)
+               n1: 2032 0x1: ???
+                n1: 2032 0x1FFF000152: ???
+                 n0: 2032 0x1FFF00015E: ???
+  n0: 64 in 1 place, below massif's threshold (1.00%)
+ n1: 1416 0x404A68: std::__new_allocator<std::vector<int, std::allocator<int> > >::allocate(unsigned long, void const*) (in /home/hunting/Desktop/Academics/UML/23Spring/CompIV/PS5/EDistance)
+  n1: 1416 0x4048CF: std::allocator_traits<std::allocator<std::vector<int, std::allocator<int> > > >::allocate(std::allocator<std::vector<int, std::allocator<int> > >&, unsigned long) (in /home/hunting/Desktop/Academics/UML/23Spring/CompIV/PS5/EDistance)
+   n1: 1416 0x4047B1: std::_Vector_base<std::vector<int, std::allocator<int> >, std::allocator<std::vector<int, std::allocator<int> > > >::_M_allocate(unsigned long) (in /home/hunting/Desktop/Academics/UML/23Spring/CompIV/PS5/EDistance)
+    n1: 1416 0x4045E2: std::_Vector_base<std::vector<int, std::allocator<int> >, std::allocator<std::vector<int, std::allocator<int> > > >::_M_create_storage(unsigned long) (in /home/hunting/Desktop/Academics/UML/23Spring/CompIV/PS5/EDistance)
+     n1: 1416 0x404394: std::_Vector_base<std::vector<int, std::allocator<int> >, std::allocator<std::vector<int, std::allocator<int> > > >::_Vector_base(unsigned long, std::allocator<std::vector<int, std::allocator<int> > > const&) (in /home/hunting/Desktop/Academics/UML/23Spring/CompIV/PS5/EDistance)
+      n1: 1416 0x403F88: std::vector<std::vector<int, std::allocator<int> >, std::allocator<std::vector<int, std::allocator<int> > > >::vector(unsigned long, std::vector<int, std::allocator<int> > const&, std::allocator<std::vector<int, std::allocator<int> > > const&) (in /home/hunting/Desktop/Academics/UML/23Spring/CompIV/PS5/EDistance)
+       n1: 1416 0x403015: EDistance::EDistance(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&) (in /home/hunting/Desktop/Academics/UML/23Spring/CompIV/PS5/EDistance)
+        n0: 1416 0x40263C: main (in /home/hunting/Desktop/Academics/UML/23Spring/CompIV/PS5/EDistance)
+#-----------
+snapshot=45
+#-----------
+time=8652788
+mem_heap_B=111051
+mem_heap_extra_B=2221
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=46
+#-----------
+time=8656438
+mem_heap_B=111075
+mem_heap_extra_B=2213
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=47
+#-----------
+time=8660112
+mem_heap_B=111099
+mem_heap_extra_B=2221
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=48
+#-----------
+time=8663786
+mem_heap_B=111123
+mem_heap_extra_B=2213
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=49
+#-----------
+time=8669297
+mem_heap_B=111159
+mem_heap_extra_B=2209
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=50
+#-----------
+time=8672971
+mem_heap_B=111183
+mem_heap_extra_B=2217
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=51
+#-----------
+time=8676645
+mem_heap_B=111207
+mem_heap_extra_B=2225
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=52
+#-----------
+time=8680385
+mem_heap_B=111900
+mem_heap_extra_B=2204
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=53
+#-----------
+time=8693932
+mem_heap_B=111900
+mem_heap_extra_B=2204
+mem_stacks_B=0
+heap_tree=peak
+n6: 111900 (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
+ n1: 72704 0x4990CE9: pool (eh_alloc.cc:123)
+  n1: 72704 0x4990CE9: __static_initialization_and_destruction_0 (eh_alloc.cc:262)
+   n1: 72704 0x4990CE9: _GLOBAL__sub_I_eh_alloc.cc (eh_alloc.cc:338)
+    n1: 72704 0x4004CDD: call_init (dl-init.c:70)
+     n1: 72704 0x4004CDD: call_init (dl-init.c:26)
+      n1: 72704 0x4004DCB: _dl_init (dl-init.c:117)
+       n1: 72704 0x401B8DF: ??? (in /usr/lib64/ld-linux-x86-64.so.2)
+        n1: 72704 0x1: ???
+         n1: 72704 0x1FFF000152: ???
+          n0: 72704 0x1FFF00015E: ???
+ n2: 16576 0x53CD128: g_malloc (gmem.c:130)
+  n1: 16384 0x53CD563: g_quark_init (gquark.c:64)
+   n1: 16384 0x538DF58: UnknownInlinedFun (glib-init.c:341)
+    n1: 16384 0x538DF58: UnknownInlinedFun (glib-init.c:330)
+     n1: 16384 0x538DF58: glib_init_ctor (glib-init.c:455)
+      n1: 16384 0x4004CDD: call_init (dl-init.c:70)
+       n1: 16384 0x4004CDD: call_init (dl-init.c:26)
+        n1: 16384 0x4004DCB: _dl_init (dl-init.c:117)
+         n1: 16384 0x401B8DF: ??? (in /usr/lib64/ld-linux-x86-64.so.2)
+          n1: 16384 0x1: ???
+           n1: 16384 0x1FFF000152: ???
+            n0: 16384 0x1FFF00015E: ???
+  n0: 192 in 1 place, below massif's threshold (1.00%)
+ n1: 13688 0x404971: std::__new_allocator<int>::allocate(unsigned long, void const*) (in /home/hunting/Desktop/Academics/UML/23Spring/CompIV/PS5/EDistance)
+  n1: 13688 0x40482D: std::allocator_traits<std::allocator<int> >::allocate(std::allocator<int>&, unsigned long) (in /home/hunting/Desktop/Academics/UML/23Spring/CompIV/PS5/EDistance)
+   n1: 13688 0x4046FD: std::_Vector_base<int, std::allocator<int> >::_M_allocate(unsigned long) (in /home/hunting/Desktop/Academics/UML/23Spring/CompIV/PS5/EDistance)
+    n1: 13688 0x4044C8: std::_Vector_base<int, std::allocator<int> >::_M_create_storage(unsigned long) (in /home/hunting/Desktop/Academics/UML/23Spring/CompIV/PS5/EDistance)
+     n2: 13688 0x404290: std::_Vector_base<int, std::allocator<int> >::_Vector_base(unsigned long, std::allocator<int> const&) (in /home/hunting/Desktop/Academics/UML/23Spring/CompIV/PS5/EDistance)
+      n1: 13688 0x404C69: std::vector<int, std::allocator<int> >::vector(std::vector<int, std::allocator<int> > const&) (in /home/hunting/Desktop/Academics/UML/23Spring/CompIV/PS5/EDistance)
+       n1: 13688 0x404BA8: void std::_Construct<std::vector<int, std::allocator<int> >, std::vector<int, std::allocator<int> > const&>(std::vector<int, std::allocator<int> >*, std::vector<int, std::allocator<int> > const&) (in /home/hunting/Desktop/Academics/UML/23Spring/CompIV/PS5/EDistance)
+        n1: 13688 0x404AA8: std::vector<int, std::allocator<int> >* std::__do_uninit_fill_n<std::vector<int, std::allocator<int> >*, unsigned long, std::vector<int, std::allocator<int> > >(std::vector<int, std::allocator<int> >*, unsigned long, std::vector<int, std::allocator<int> > const&) (in /home/hunting/Desktop/Academics/UML/23Spring/CompIV/PS5/EDistance)
+         n1: 13688 0x4048FC: std::vector<int, std::allocator<int> >* std::__uninitialized_fill_n<false>::__uninit_fill_n<std::vector<int, std::allocator<int> >*, unsigned long, std::vector<int, std::allocator<int> > >(std::vector<int, std::allocator<int> >*, unsigned long, std::vector<int, std::allocator<int> > const&) (in /home/hunting/Desktop/Academics/UML/23Spring/CompIV/PS5/EDistance)
+          n1: 13688 0x4047E9: std::vector<int, std::allocator<int> >* std::uninitialized_fill_n<std::vector<int, std::allocator<int> >*, unsigned long, std::vector<int, std::allocator<int> > >(std::vector<int, std::allocator<int> >*, unsigned long, std::vector<int, std::allocator<int> > const&) (in /home/hunting/Desktop/Academics/UML/23Spring/CompIV/PS5/EDistance)
+           n1: 13688 0x40464E: std::vector<int, std::allocator<int> >* std::__uninitialized_fill_n_a<std::vector<int, std::allocator<int> >*, unsigned long, std::vector<int, std::allocator<int> >, std::vector<int, std::allocator<int> > >(std::vector<int, std::allocator<int> >*, unsigned long, std::vector<int, std::allocator<int> > const&, std::allocator<std::vector<int, std::allocator<int> > >&) (in /home/hunting/Desktop/Academics/UML/23Spring/CompIV/PS5/EDistance)
+            n1: 13688 0x4043F1: std::vector<std::vector<int, std::allocator<int> >, std::allocator<std::vector<int, std::allocator<int> > > >::_M_fill_initialize(unsigned long, std::vector<int, std::allocator<int> > const&) (in /home/hunting/Desktop/Academics/UML/23Spring/CompIV/PS5/EDistance)
+             n1: 13688 0x403F9F: std::vector<std::vector<int, std::allocator<int> >, std::allocator<std::vector<int, std::allocator<int> > > >::vector(unsigned long, std::vector<int, std::allocator<int> > const&, std::allocator<std::vector<int, std::allocator<int> > > const&) (in /home/hunting/Desktop/Academics/UML/23Spring/CompIV/PS5/EDistance)
+              n1: 13688 0x403015: EDistance::EDistance(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&) (in /home/hunting/Desktop/Academics/UML/23Spring/CompIV/PS5/EDistance)
+               n0: 13688 0x40263C: main (in /home/hunting/Desktop/Academics/UML/23Spring/CompIV/PS5/EDistance)
+      n0: 0 in 1 place, below massif's threshold (1.00%)
+ n0: 5420 in 18 places, all below massif's threshold (1.00%)
+ n2: 2096 0x53CD5B0: g_malloc0 (gmem.c:163)
+  n1: 2032 0x53E4C5B: UnknownInlinedFun (gthread.c:544)
+   n1: 2032 0x53E4C5B: UnknownInlinedFun (gslice.c:566)
+    n1: 2032 0x53E4C5B: UnknownInlinedFun (gslice.c:552)
+     n1: 2032 0x53E4C5B: g_slice_alloc (gslice.c:1052)
+      n1: 2032 0x53B32D1: g_hash_table_new_full (ghash.c:1073)
+       n1: 2032 0x53CD552: g_quark_init (gquark.c:63)
+        n1: 2032 0x538DF58: UnknownInlinedFun (glib-init.c:341)
+         n1: 2032 0x538DF58: UnknownInlinedFun (glib-init.c:330)
+          n1: 2032 0x538DF58: glib_init_ctor (glib-init.c:455)
+           n1: 2032 0x4004CDD: call_init (dl-init.c:70)
+            n1: 2032 0x4004CDD: call_init (dl-init.c:26)
+             n1: 2032 0x4004DCB: _dl_init (dl-init.c:117)
+              n1: 2032 0x401B8DF: ??? (in /usr/lib64/ld-linux-x86-64.so.2)
+               n1: 2032 0x1: ???
+                n1: 2032 0x1FFF000152: ???
+                 n0: 2032 0x1FFF00015E: ???
+  n0: 64 in 1 place, below massif's threshold (1.00%)
+ n1: 1416 0x404A68: std::__new_allocator<std::vector<int, std::allocator<int> > >::allocate(unsigned long, void const*) (in /home/hunting/Desktop/Academics/UML/23Spring/CompIV/PS5/EDistance)
+  n1: 1416 0x4048CF: std::allocator_traits<std::allocator<std::vector<int, std::allocator<int> > > >::allocate(std::allocator<std::vector<int, std::allocator<int> > >&, unsigned long) (in /home/hunting/Desktop/Academics/UML/23Spring/CompIV/PS5/EDistance)
+   n1: 1416 0x4047B1: std::_Vector_base<std::vector<int, std::allocator<int> >, std::allocator<std::vector<int, std::allocator<int> > > >::_M_allocate(unsigned long) (in /home/hunting/Desktop/Academics/UML/23Spring/CompIV/PS5/EDistance)
+    n1: 1416 0x4045E2: std::_Vector_base<std::vector<int, std::allocator<int> >, std::allocator<std::vector<int, std::allocator<int> > > >::_M_create_storage(unsigned long) (in /home/hunting/Desktop/Academics/UML/23Spring/CompIV/PS5/EDistance)
+     n1: 1416 0x404394: std::_Vector_base<std::vector<int, std::allocator<int> >, std::allocator<std::vector<int, std::allocator<int> > > >::_Vector_base(unsigned long, std::allocator<std::vector<int, std::allocator<int> > > const&) (in /home/hunting/Desktop/Academics/UML/23Spring/CompIV/PS5/EDistance)
+      n1: 1416 0x403F88: std::vector<std::vector<int, std::allocator<int> >, std::allocator<std::vector<int, std::allocator<int> > > >::vector(unsigned long, std::vector<int, std::allocator<int> > const&, std::allocator<std::vector<int, std::allocator<int> > > const&) (in /home/hunting/Desktop/Academics/UML/23Spring/CompIV/PS5/EDistance)
+       n1: 1416 0x403015: EDistance::EDistance(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&) (in /home/hunting/Desktop/Academics/UML/23Spring/CompIV/PS5/EDistance)
+        n0: 1416 0x40263C: main (in /home/hunting/Desktop/Academics/UML/23Spring/CompIV/PS5/EDistance)
+#-----------
+snapshot=54
+#-----------
+time=8696464
+mem_heap_B=108767
+mem_heap_extra_B=2001
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=55
+#-----------
+time=8698984
+mem_heap_B=105983
+mem_heap_extra_B=1809
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=56
+#-----------
+time=8701504
+mem_heap_B=103199
+mem_heap_extra_B=1601
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=57
+#-----------
+time=8704024
+mem_heap_B=100415
+mem_heap_extra_B=1409
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=58
+#-----------
+time=8706486
+mem_heap_B=96447
+mem_heap_extra_B=1217
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=59
+#-----------
+time=8715095
+mem_heap_B=96151
+mem_heap_extra_B=1129
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=60
+#-----------
+time=8719774
+mem_heap_B=95571
+mem_heap_extra_B=877
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=61
+#-----------
+time=8722208
+mem_heap_B=95361
+mem_heap_extra_B=671
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=62
+#-----------
+time=8728370
+mem_heap_B=93652
+mem_heap_extra_B=140
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=63
+#-----------
+time=8731365
+mem_heap_B=92532
+mem_heap_extra_B=100
+mem_stacks_B=0
+heap_tree=detailed
+n5: 92532 (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
+ n1: 72704 0x4990CE9: pool (eh_alloc.cc:123)
+  n1: 72704 0x4990CE9: __static_initialization_and_destruction_0 (eh_alloc.cc:262)
+   n1: 72704 0x4990CE9: _GLOBAL__sub_I_eh_alloc.cc (eh_alloc.cc:338)
+    n1: 72704 0x4004CDD: call_init (dl-init.c:70)
+     n1: 72704 0x4004CDD: call_init (dl-init.c:26)
+      n1: 72704 0x4004DCB: _dl_init (dl-init.c:117)
+       n1: 72704 0x401B8DF: ??? (in /usr/lib64/ld-linux-x86-64.so.2)
+        n1: 72704 0x1: ???
+         n1: 72704 0x1FFF000152: ???
+          n0: 72704 0x1FFF00015E: ???
+ n2: 16576 0x53CD128: g_malloc (gmem.c:130)
+  n1: 16384 0x53CD563: g_quark_init (gquark.c:64)
+   n1: 16384 0x538DF58: UnknownInlinedFun (glib-init.c:341)
+    n1: 16384 0x538DF58: UnknownInlinedFun (glib-init.c:330)
+     n1: 16384 0x538DF58: glib_init_ctor (glib-init.c:455)
+      n1: 16384 0x4004CDD: call_init (dl-init.c:70)
+       n1: 16384 0x4004CDD: call_init (dl-init.c:26)
+        n1: 16384 0x4004DCB: _dl_init (dl-init.c:117)
+         n1: 16384 0x401B8DF: ??? (in /usr/lib64/ld-linux-x86-64.so.2)
+          n1: 16384 0x1: ???
+           n1: 16384 0x1FFF000152: ???
+            n0: 16384 0x1FFF00015E: ???
+  n0: 192 in 1 place, below massif's threshold (1.00%)
+ n2: 2096 0x53CD5B0: g_malloc0 (gmem.c:163)
+  n1: 2032 0x53E4C5B: UnknownInlinedFun (gthread.c:544)
+   n1: 2032 0x53E4C5B: UnknownInlinedFun (gslice.c:566)
+    n1: 2032 0x53E4C5B: UnknownInlinedFun (gslice.c:552)
+     n1: 2032 0x53E4C5B: g_slice_alloc (gslice.c:1052)
+      n1: 2032 0x53B32D1: g_hash_table_new_full (ghash.c:1073)
+       n1: 2032 0x53CD552: g_quark_init (gquark.c:63)
+        n1: 2032 0x538DF58: UnknownInlinedFun (glib-init.c:341)
+         n1: 2032 0x538DF58: UnknownInlinedFun (glib-init.c:330)
+          n1: 2032 0x538DF58: glib_init_ctor (glib-init.c:455)
+           n1: 2032 0x4004CDD: call_init (dl-init.c:70)
+            n1: 2032 0x4004CDD: call_init (dl-init.c:26)
+             n1: 2032 0x4004DCB: _dl_init (dl-init.c:117)
+              n1: 2032 0x401B8DF: ??? (in /usr/lib64/ld-linux-x86-64.so.2)
+               n1: 2032 0x1: ???
+                n1: 2032 0x1FFF000152: ???
+                 n0: 2032 0x1FFF00015E: ???
+  n0: 64 in 1 place, below massif's threshold (1.00%)
+ n1: 1024 0x4C93203: _IO_file_doallocate (filedoalloc.c:101)
+  n1: 1024 0x4CA0E2F: _IO_doallocbuf (genops.c:347)
+   n1: 1024 0x4CA0E2F: _IO_doallocbuf (genops.c:342)
+    n1: 1024 0x4CA01C7: _IO_file_overflow@@GLIBC_2.2.5 (fileops.c:744)
+     n1: 1024 0x4C9F36D: _IO_new_file_xsputn (fileops.c:1243)
+      n1: 1024 0x4C9F36D: _IO_file_xsputn@@GLIBC_2.2.5 (fileops.c:1196)
+       n1: 1024 0x4C94526: fwrite (iofwrite.c:39)
+        n1: 1024 0x4A21A0C: sputn (streambuf:456)
+         n1: 1024 0x4A21A0C: __ostream_write<char, std::char_traits<char> > (ostream_insert.h:51)
+          n1: 1024 0x4A21A0C: std::basic_ostream<char, std::char_traits<char> >& std::__ostream_insert<char, std::char_traits<char> >(std::basic_ostream<char, std::char_traits<char> >&, char const*, long) (ostream_insert.h:102)
+           n1: 1024 0x4A21D5A: std::basic_ostream<char, std::char_traits<char> >& std::operator<< <std::char_traits<char> >(std::basic_ostream<char, std::char_traits<char> >&, char const*) (ostream:620)
+            n0: 1024 0x402676: main (in /home/hunting/Desktop/Academics/UML/23Spring/CompIV/PS5/EDistance)
+ n0: 132 in 19 places, all below massif's threshold (1.00%)
+#-----------
+snapshot=64
+#-----------
+time=8735304
+mem_heap_B=18804
+mem_heap_extra_B=84
+mem_stacks_B=0
+heap_tree=empty
